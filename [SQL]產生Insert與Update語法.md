@@ -1,7 +1,5 @@
 # [SQL]產生Insert與Update語法
 
-## Indroduction
-
 將Select出來的資料轉換成Insert或Update語法。目前有些第三方軟體有此功能，但有些公司因為企業用途或軟體安裝限制無法使用，所以自己寫一個。
 
 ## How to use
@@ -9,22 +7,22 @@
 1. 先設定以下參數
 
 ```SQL
-	--※★參數設定_BEGIN★
-	SET @TableName = 'skl_GlStkPool'
-	SET @Action = 1 --1.Insert  2.Update
+    --※★參數設定_BEGIN★
+    SET @TableName = 'skl_GlStkPool'
+    SET @Action = 1 --1.Insert  2.Update
 
-	--Update條件(逗點區隔)
-	SET @Upd_Columns = 'd_cost,t_cost'
-	SET @Upd_Keys = 'tran_no'
+    --Update條件(逗點區隔)
+    SET @Upd_Columns = 'd_cost,t_cost'
+    SET @Upd_Keys = 'tran_no'
 ```
 
 2. 把產出的語法貼在Select的第一欄，執行後的結果，第一欄就會是你要的語法
 
 ```SQL
-	SELECT
-		[產生出的語法]
-		,*
-	WHERE [你的條件]
+    SELECT
+        [產生出的語法]
+        ,*
+    WHERE [你的條件]
 ```
 
 ## Guid
