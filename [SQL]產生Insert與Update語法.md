@@ -37,6 +37,34 @@
 
 語法會檢查「資料表、Update的Columns、Keys...」，是否存在系統
 
+## Insert Sample
+
+1.先設定以下參數，@Action = 1，[Update條件]可忽略，按下[執行]後，將下方產生的結果複製
+
+<img src="https://github.com/rkeastwind/SQL_Tools/blob/master/Screenshot/[SQL]產生Insert與Update語法_Insert1.png" width=350px />
+
+2.將結果貼上於你的select條件最前方，按下[執行]，第一欄就是你要的結果
+
+<img src="https://github.com/rkeastwind/SQL_Tools/blob/master/Screenshot/[SQL]產生Insert與Update語法_Insert2.png" width=900px />
+
+3.將第一欄複製貼上到新的查詢頁面使用
+
+<img src="https://github.com/rkeastwind/SQL_Tools/blob/master/Screenshot/[SQL]產生Insert與Update語法_Insert3.png" width=900px />
+
+## Update Sample
+
+1.先設定以下參數，@Action = 2，@Upd_Columns是你要set的欄位，@Upd_Keys是你的where條件欄位，按下[執行]後，將下方產生的結果複製
+
+<img src="https://github.com/rkeastwind/SQL_Tools/blob/master/Screenshot/[SQL]產生Insert與Update語法_Update1.png" width=350px />
+
+2.將結果貼上於你的select條件最前方，按下[執行]，第一欄就是你要的結果
+
+<img src="https://github.com/rkeastwind/SQL_Tools/blob/master/Screenshot/[SQL]產生Insert與Update語法_Update2.png" width=900px />
+
+3.將第一欄複製貼上到新的查詢頁面使用
+
+<img src="https://github.com/rkeastwind/SQL_Tools/blob/master/Screenshot/[SQL]產生Insert與Update語法_Update3.png" width=700px />
+
 ## License
 
 ![GitHub User's stars](https://img.shields.io/badge/Copyright%40-Rick%20Lin-blue?style=?style=plastic&logo=GitHub)
